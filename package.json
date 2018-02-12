@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_app",
+  "version": "1.0.0",
+  "description": "Simple app use nodejs, mongodb and jade template",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongoose": "*",
+    "nodemon": "^1.14.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://SirKenG@bitbucket.org/SirKenG/nodejs_app.git"
+  },
+  "author": "SirKenG",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/SirKenG/nodejs_app#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
