@@ -1,0 +1,19 @@
+<div class="card" ng-init="getBooks()">
+  <div class="card-header">
+    Latest Books
+  </div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-6" ng-repeat="(key, book) in books">
+        <!-- <div class="col-sm-6"> -->
+          <h4>{{book.title}}</h4>
+          <p>{{book.description}}</p>
+          <a class="btn btn-primary" ng-href="#!/books/details/{{book._id}}">View Details</a>
+        <!-- </div> -->
+        <!-- <div class="col-sm-6"> -->
+          <img class="img-thumbnail" src="{{book.image_url}}">
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+</div>
